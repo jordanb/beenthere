@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/gallery_picture_thumb" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_margin="0dip"
+	android:background="@drawable/gallery_picture_selector"
+	android:scaleType="centerCrop"
+	android:adjustViewBounds="true"
+	android:cropToPadding="true"
+	android:padding="5dip">
+</ImageView>

@@ -1,0 +1,61 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 	
+ 	<item 
+    	android:id="@+id/view_albums"
+        android:title="@string/view_albums"
+        android:icon="@drawable/ic_menu_albums">
+    </item>
+    
+    <item 
+    	android:id="@+id/create_album"
+        android:title="@string/create_album"
+        android:icon="@drawable/ic_menu_new_album">
+    </item> 
+    
+	<item 
+		android:id="@+id/map_options"
+        android:title="@string/map_options"
+        android:icon="@drawable/ic_menu_mapmode">
+        
+        <menu>
+        
+        	<group 
+        		android:id="@+id/mapmode_group"
+        		android:checkableBehavior="single">
+        		
+	            <item 
+	            	android:id="@+id/map_mode"
+	                android:title="@string/map"
+	                android:enabled="true"/>
+	                
+	            <item 
+	            	android:id="@+id/satellite_mode"
+	               	android:title="@string/satellite"
+	              	android:enabled="true"/>
+	              	
+	        </group>
+	        
+	        <item 
+	            android:id="@+id/show_location_mode"
+	            android:title="@string/show_current_location"
+	            android:checkable="true"
+	            android:enabled="true"/>
+	        
+		</menu>
+		
+    </item>
+    
+    <item 
+    	android:id="@+id/my_location"
+  		android:title="@string/my_location"
+        android:icon="@drawable/ic_menu_mylocation">
+    </item>
+    
+    <item 
+    	android:id="@+id/refresh"
+  		android:title="@string/refresh"
+        android:icon="@drawable/ic_menu_refresh">
+    </item>
+    
+</menu>
+

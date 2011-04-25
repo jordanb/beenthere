@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item 
+		android:id="@+id/view_album"
+        android:title="@string/view_album">
+    </item>
+    
+    <item 
+		android:id="@+id/send_album"
+        android:title="@string/send_album">
+    </item>
+    
+    <item 
+		android:id="@+id/edit_album"
+        android:title="@string/edit_album">
+    </item>
+    
+    <item 
+		android:id="@+id/delete_album"
+        android:title="@string/delete_album">
+    </item>
+    
+</menu>
+

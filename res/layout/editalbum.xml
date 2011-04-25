@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/editalbum"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="0dip"
+	android:background="#FFFFFF">
+	
+	<LinearLayout
+		android:id="@+id/editalbum_control"
+		android:layout_width="fill_parent" 
+    	android:layout_height="50dip"
+    	android:orientation="horizontal"
+    	android:paddingTop="6dip"
+    	android:paddingLeft="3dip"
+    	android:paddingRight="3dip"
+    	android:paddingBottom="0dip">
+    	
+		<EditText 
+			android:id="@+id/album_edit_item"
+			android:layout_width="wrap_content" 
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:layout_margin="0dip"
+			android:maxLines="1"
+			android:ellipsize="end"
+			android:hint="@string/new_album_name_hint"
+			android:textColor="#000000"
+			android:textSize="16dip"
+			android:gravity="center_vertical"/>
+    	
+		<Button 
+			android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_marginBottom="3dip"
+			android:id="@+id/editalbum_save_button"
+			android:text="@string/save"/>
+		
+	</LinearLayout> 
+		
+    <ListView 
+     	android:id="@id/android:list"
+   		android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+		android:divider="#D9D9D9"
+		android:dividerHeight="1dip"
+		android:footerDividersEnabled="true"
+		android:headerDividersEnabled="true" 
+		android:background="#FFFFFF" 
+		android:cacheColorHint="#FFFFFF"/>
+		
+	<TextView 
+		android:id="@id/android:empty"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:text="No data"/>
+	
+ </LinearLayout>

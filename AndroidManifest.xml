@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.beenthere"
+      android:versionCode="2"
+      android:versionName="1.0.1">
+      
+    <application 
+    	android:icon="@drawable/ic_launcher_been_there" 
+    	android:label="@string/beentherepremium_name" 
+    	android:theme="@android:style/Theme.NoTitleBar">
+    	
+        <uses-library android:name="com.google.android.maps" />
+        
+        <activity 
+        	android:name=".activity.PictureMapActivity"
+            android:label="@string/beenthere_name">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+            <intent-filter> 
+     			<action android:name="android.intent.action.VIEW"/> 
+     			<category android:name="android.intent.category.DEFAULT"/> 
+     			<data android:mimeType="application/vnd.google-earth.kmz"/> 
+  			</intent-filter> 
+            
+        </activity>
+        
+        <activity 
+        	android:name=".activity.PictureViewerActivity"
+            android:label="@string/picviewer_name">
+        </activity>
+        
+        <activity 
+        	android:name=".activity.ListAlbumActivity"
+        	android:label="@string/list_album_name">
+        </activity>
+        
+        <activity 
+        	android:name=".activity.EditAlbumActivity"
+            android:label="@string/edit_album_name">
+        </activity>
+        
+    </application>
+    
+	<supports-screens
+		android:largeScreens="true"
+     	android:normalScreens="true"
+		android:smallScreens="true"
+		android:anyDensity="true" />    
+    
+    <uses-sdk android:minSdkVersion="3" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+   	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    
+</manifest> 

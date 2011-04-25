@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_map"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:apiKey="0lHI4od26Ra9XLHAyovftd8g3rJmiSnYtVbYJdg"/>
+    
+    <com.beenthere.view.BarView 
+		android:id="@+id/bar_view"
+		android:layout_width="fill_parent"
+    	android:layout_height="25dip"
+    	android:paddingLeft="3dip"
+		android:paddingRight="3dip"
+		android:layout_alignParentTop="true"
+		android:background="@color/transparent_black" />    
+		
+	<Gallery
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_below="@id/bar_view"
+		android:clickable="true"
+		android:focusable="true"
+		android:spacing="1dip"
+		android:unselectedAlpha="1.0"
+		android:id="@+id/gallery">
+	</Gallery>
+	
+	<ViewStub
+        android:id="@+id/stub_load"
+        android:inflatedId="@+id/panel_load"
+        android:layout="@layout/progress_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+	
+</RelativeLayout>

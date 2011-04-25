@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/note_background" >
+    
+	<com.beenthere.view.BarView
+		android:id="@+id/bar"
+		android:layout_width="fill_parent"
+		android:layout_height="25dip"
+		android:clickable="true"
+		android:background="@drawable/note_view_selector"
+    	android:paddingLeft="5dip"
+		android:paddingRight="5dip"/>
+        
+	<TextView
+		android:id="@+id/note"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="5dip"
+		android:inputType="textMultiLine"
+		android:textSize="12dip"
+		android:gravity="fill"
+		android:textColor="@color/white"
+		android:textColorHint="@color/gray"
+		android:hint="@string/no_note">
+	</TextView>
+
+</LinearLayout>

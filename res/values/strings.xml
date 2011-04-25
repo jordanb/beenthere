@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<!-- Common -->
+    <string name="beenthere_name">Been There</string>
+    <string name="beentherepremium_name">Been There Premium</string>
+    <string name="pictures">pictures</string>
+	<string name="picture">picture</string>
+	<string name="media_bad_removal">SD card is not connected.</string>
+	<string name="media_removed">SD card is not connected.</string>
+	<string name="media_checking">SD card is being checked.</string>
+	<string name="media_mounted_read_only">SD card is accessible in read only.</string>
+	<string name="media_nofs">SD card is blank or its filesystem is unsupported.</string>
+	<string name="media_shared">SD card is not accessible. Turn off USB storage.</string>
+	<string name="media_unmounted">SD card is not mounted.</string>
+	<string name="media_unmountable">SD card is unmountable.</string>
+	<string name="media_other">The pictures are not accessible.</string>
+
+    <!-- PictureMapActivity -->
+    <string name="map_name">Been There Map</string>
+    <string name="map_options">Map Options</string>
+    <string name="my_location">My Location</string>
+    <string name="refresh">Refresh</string>
+    <string name="view_albums">Albums</string>
+    <string name="create_album">New Album</string>
+	<string name="map">Map</string>
+	<string name="satellite">Satellite</string>
+	<string name="show_current_location">Show current location</string>
+	<string name="load_pictures">Loading pictures...</string>
+	<string name="load_albums">Loading albums...</string>
+	<string name="load_done">Done</string>
+	<string name="refresh_running">Refresh is already running.</string>
+	<string name="importing_album">Importing album...</string>
+	<string name="import_after_refresh">Refresh is running. When it is done, you will be able to import your album.</string>
+	<string name="imported">imported.</string>
+    <string name="import_error">An error occurred while importing the album. Please try again.</string>
+	<string name="no_albums">You do not have any albums. You may try to refresh.</string>
+	<string name="no_pictures_on_screen">There are no pictures on the current screen. Move to a location that shows pictures.</string>
+	<string name="select_picture">Select a picture</string>
+	<string name="no_pictures_around_here">No pictures around here</string>
+	<string name="no_visible_albums">None of your albums are visible. To change the albums displayed, go to <b>Albums</b>.</string>
+	<string name="no_pictures_alert">No photos with location found. You can activate the geo-tagging in the <b>Camera App\'s Settings</b>.</string>
+	<string name="no_location">No current location available.</string>
+	<string name="navigation_album_help">Double click to expand</string>
+	<string name="navigation_picture_help">Slide up to go back</string>
+    
+    <!-- PictureViewerActivity -->
+    <string name="picviewer_name">Been There Viewer</string>
+    <string name="no_note">No note</string>
+    
+    <!-- EditAlbumActivity -->
+    <string name="edit_album_name">Been There Album Editor</string>
+    <string name="new_album_name_hint">Name of the album</string>
+    <string name="edit_note">Add note</string>
+    <string name="exclude_picture">To remove</string>
+    <string name="no_date">No date</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="saving">Saving</string>
+    <string name="saved">saved.</string>
+    <string name="save_error">An error occurred while saving the album. Please try again.</string>
+    <string name="empty_album_name">Please choose a name for the album.</string>
+	<string name="empty_album">An album must contain at least one picture.</string>
+
+    <!-- ListAlbumActivity -->
+    <string name="list_album_name">Been There Albums</string>
+	<string name="phone_pictures">All phone pictures</string>
+	<string name="no_pictures_in_album">There are no pictures to view in this album.</string>
+	<string name="album_displayed">displayed on map.</string>
+	<string name="album_not_displayed">not displayed on map.</string>	
+	<string name="view_album">View album</string>
+	<string name="send_album">Send album</string>
+	<string name="edit_album">Edit album</string>
+	<string name="delete_album">Delete album</string>
+	<string name="deleting">Deleting</string>
+	<string name="zipping">Exporting</string>
+	<string name="zip_error">An error occurred during the album export. Please try again.</string>
+	<string name="email_text"><i>Open the attachment with Google Earth to view the album.\nSent with Been There for Android.</i></string>	
+	<string name="email_subject">Been There Photo Album</string>
+	
+</resources>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/picviewer_relativelayout">
+	
+	<com.beenthere.view.SafeImage 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:clickable="true"
+		android:focusable="true"
+		android:visibility="visible"
+		android:id="@+id/picviewer_imageview"/>
+	
+	<Gallery
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:spacing="1dip"
+		android:unselectedAlpha="1.0"
+		android:id="@+id/gallery"/>
+	
+	<com.beenthere.view.NoteView 
+		android:id="@+id/note_view"
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="30dip"
+    	android:layout_marginRight="30dip"
+    	android:layout_alignParentBottom="true" />
+	
+</RelativeLayout>
