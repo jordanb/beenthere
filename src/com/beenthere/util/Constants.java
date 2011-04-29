@@ -5,7 +5,7 @@ public class Constants {
 	// Preferences
 	public static final String 		PREFS_NAME 			= "been_there_prefs_file";
 	
-	public static final double 		NO_GEO_TAG 			= 1000.0;
+	public static final double 		NO_GEO_TAG 			= 0.0;
 	public static final int 		NO_DATE				= -7;
 	public static final int    		NO_SD_ACCESS 		= 1;
 	

@@ -61,6 +61,13 @@ public class PictureManager {
 			        	if (latitude == Constants.NO_GEO_TAG && longitude == Constants.NO_GEO_TAG) {
 			        		// Initialized but no GPS data
 			        		hasLatLong = false;
+			        	} else if (latitude == 1000.0 && longitude == 1000.0) {
+			        		hasLatLong = false;
+			        		Uri imageUri = Uri.withAppendedPath(Media.EXTERNAL_CONTENT_URI, Long.toString(imageId));
+			        		ContentValues values = new ContentValues(2);
+			        		values.put(Media.LATITUDE, Constants.NO_GEO_TAG);
+			        		values.put(Media.LONGITUDE, Constants.NO_GEO_TAG);
+			        		cr.update(imageUri, values, null, null);
 			        	} else if (latitudeStr == null || longitudeStr == null) { 
 			        		// Not initialized
 			        		hasLatLong = false;

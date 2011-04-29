@@ -1,4 +1,4 @@
-package com.beenthere.activity;
+package com.picmap.ui.activity;
 
 import java.util.ArrayList;
 
@@ -14,12 +14,11 @@ import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
-import android.widget.Gallery;
-import android.widget.ImageView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.Gallery;
+import android.widget.ImageView;
 
-import com.beenthere.R;
 import com.beenthere.provider.Picture;
 import com.beenthere.provider.PictureBox;
 import com.beenthere.provider.PictureGroup;
@@ -29,6 +28,7 @@ import com.beenthere.util.UIUtils;
 import com.beenthere.view.NoteView;
 import com.beenthere.view.SafeImage;
 import com.flurry.android.FlurryAgent;
+import com.picmap.ui.R;
 
 public class PictureViewerActivity extends Activity implements OnItemClickListener,
 															   OnClickListener, 

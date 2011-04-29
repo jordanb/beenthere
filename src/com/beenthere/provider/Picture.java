@@ -3,12 +3,12 @@ package com.beenthere.provider;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.beenthere.R;
 import com.beenthere.util.Constants;
 import com.beenthere.util.FileUtils;
 import com.beenthere.util.GPSUtils;
 import com.google.android.maps.GeoPoint;
 import com.google.android.maps.OverlayItem;
+import com.picmap.ui.R;
 
 public class Picture extends Viewable implements Parcelable {
 	

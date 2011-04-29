@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.beenthere"
-      android:versionCode="2"
-      android:versionName="1.0.1">
+      package="com.picmap.ui"
+      android:versionCode="15"
+      android:versionName="2.0">
       
     <application 
     	android:icon="@drawable/ic_launcher_been_there" 
-    	android:label="@string/beentherepremium_name" 
+    	android:label="@string/beenthere_name" 
     	android:theme="@android:style/Theme.NoTitleBar">
     	
         <uses-library android:name="com.google.android.maps" />

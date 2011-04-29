@@ -1,4 +1,4 @@
-package com.beenthere.activity;
+package com.picmap.ui.activity;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -17,22 +17,21 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.ContextMenu;
+import android.view.ContextMenu.ContextMenuInfo;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.ContextMenu.ContextMenuInfo;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.AbsListView;
+import android.widget.AbsListView.OnScrollListener;
+import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.AbsListView.OnScrollListener;
-import android.widget.AdapterView.AdapterContextMenuInfo;
 
-import com.beenthere.R;
 import com.beenthere.provider.AlbumManager;
 import com.beenthere.provider.FileAlbum;
 import com.beenthere.provider.Picture;
@@ -43,6 +42,7 @@ import com.beenthere.util.FileUtils;
 import com.beenthere.util.ThumbManager;
 import com.beenthere.util.UIUtils;
 import com.flurry.android.FlurryAgent;
+import com.picmap.ui.R;
 
 public class ListAlbumActivity extends ListActivity implements OnScrollListener {
 	

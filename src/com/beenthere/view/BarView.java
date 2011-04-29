@@ -8,8 +8,8 @@ import android.view.LayoutInflater;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.beenthere.R;
 import com.beenthere.util.UIUtils;
+import com.picmap.ui.R;
 
 public class BarView extends LinearLayout {
 	

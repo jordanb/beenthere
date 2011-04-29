@@ -1,4 +1,4 @@
-package com.beenthere.activity;
+package com.picmap.ui.activity;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -24,20 +24,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewStub;
 import android.view.View.OnTouchListener;
+import android.view.ViewStub;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.Gallery;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AdapterView.OnItemSelectedListener;
 
-import com.beenthere.R;
 import com.beenthere.provider.AlbumManager;
 import com.beenthere.provider.FileAlbum;
 import com.beenthere.provider.Picture;
@@ -60,6 +59,7 @@ import com.google.android.maps.MapView;
 import com.google.android.maps.MyLocationOverlay;
 import com.google.android.maps.Overlay;
 import com.google.android.maps.OverlayItem;
+import com.picmap.ui.R;
 
 public class PictureMapActivity extends MapActivity implements 	OnItemClickListener, 
 																OnItemSelectedListener,

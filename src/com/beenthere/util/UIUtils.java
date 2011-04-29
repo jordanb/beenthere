@@ -8,8 +8,8 @@ import android.content.Context;
 import android.os.Environment;
 import android.widget.Toast;
 
-import com.beenthere.R;
 import com.beenthere.provider.PictureBox;
+import com.picmap.ui.R;
 
 public class UIUtils {
 	

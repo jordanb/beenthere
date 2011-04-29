@@ -2,7 +2,7 @@ package com.beenthere.provider;
 
 import java.util.ArrayList;
 
-import com.beenthere.R;
+import com.picmap.ui.R;
 
 public class PictureGroup extends Viewable {
 

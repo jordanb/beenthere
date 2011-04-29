@@ -1,4 +1,4 @@
-package com.beenthere.activity;
+package com.picmap.ui.activity;
 
 import android.app.Activity;
 import android.graphics.Bitmap;

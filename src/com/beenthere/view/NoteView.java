@@ -8,7 +8,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.beenthere.R;
+import com.picmap.ui.R;
 
 public class NoteView extends LinearLayout {
 	
